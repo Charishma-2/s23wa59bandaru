@@ -7,7 +7,7 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
 
   more+=1;
-  sum+=times;
+  sum+=more;
   res.send('Sum is: '+sum);
 });
 
